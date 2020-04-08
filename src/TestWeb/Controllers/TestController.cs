@@ -9,7 +9,7 @@ namespace TestWeb.Controllers
         [HttpGet("probe")]
         public IActionResult Get()
         {
-            return Ok("hello world");
+            return Ok("hello world from github!");
         }
     }
 }
